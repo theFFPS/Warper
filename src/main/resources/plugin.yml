@@ -1,0 +1,20 @@
+name: Warper
+version: '${project.version}'
+main: org.foutry.warper.Warper
+api-version: 1.13
+authors: [ 40fpsss ]
+commands:
+  warper:
+  warp:
+  w:
+permissions:
+  warper.setwarp:
+    description: Set warp
+  warper.delwarp:
+    description: Delete warp
+  warper.reload:
+    description: Reload config
+  warper.delwarpofother:
+    description: Removed warp of other player
+  warper.overridewarpofother:
+    description: Override warp of other player

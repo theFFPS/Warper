@@ -1,0 +1,9 @@
+msg:
+  warped: "Warped to ${WARP}!"
+  warpSet: "Warp ${WARP} was successfully set!"
+  warpRemoved: "Warp ${WARP} was removed!"
+  warpNotExists: "Warp ${WARP} not exists!"
+  noPerm: "Sorry but you don't have permissions required!"
+  notPlayer: "Only players can execute this command!"
+  configReloaded: "Config was reloaded!"
+  subCommandNotFound: "Subcommand ${SUBCMD} not exists! Use : '${CMD} help' for help!!"
