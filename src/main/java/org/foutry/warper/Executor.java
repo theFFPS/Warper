@@ -10,7 +10,7 @@ import org.foutry.warper.api.Warp;
 public class Executor implements CommandExecutor {
     public void invokeHelp(Player sender, String command) {
         sender.sendMessage(ChatColor.YELLOW + "/" + command + " help                 This message");
-        sender.sendMessage(ChatColor.YELLOW + "/" + command + " warp <WARP_POINT>    WarpStorage to <WARP_POINT>");
+        sender.sendMessage(ChatColor.YELLOW + "/" + command + " warp <WARP_POINT>    Warp to <WARP_POINT>");
         if (sender.hasPermission("warper.setwarp")) sender.sendMessage(ChatColor.YELLOW + "/" + command + " setWarp <WARP_NAME>  Set warp with <WARP_NAME>");
         if (sender.hasPermission("warper.delwarp")) sender.sendMessage(ChatColor.YELLOW + "/" + command + " delWarp <WARP_NAME>  Remove warp with <WARP_NAME>");
         if (sender.hasPermission("warper.reload")) sender.sendMessage(ChatColor.YELLOW + "/" + command + " reload               Reload plugin config");
